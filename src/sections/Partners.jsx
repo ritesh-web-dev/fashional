@@ -26,7 +26,7 @@ const Partners = () => {
         >
           {/* Duplicate the logos to create a seamless scrolling effect */}
           {logos.concat(logos).map((logo, index) => (
-            <div key={index} className="min-w-[7rem] flex items-center pr-20">
+            <div key={index} className="min-w-[12rem] flex items-center pr-20">
               <img className="w-full" src={logo.src} alt={logo.alt} />
             </div>
           ))}
