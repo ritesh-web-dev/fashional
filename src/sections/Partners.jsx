@@ -15,7 +15,8 @@ const Partners = () => {
     <section className="w-[100vw] overflow-hidden">
       <div className="relative flex w-[200%] bg-yellow h-[80px]">
         <motion.div
-          className="flex gap-16 p-5"
+          className="flex items-center p-5"
+          initial={{x:"0%"}}
           animate={{ x: "-100%" }}
           transition={{
             duration:50, // Adjust for desired speed
@@ -25,7 +26,7 @@ const Partners = () => {
         >
           {/* Duplicate the logos to create a seamless scrolling effect */}
           {logos.concat(logos).map((logo, index) => (
-            <div key={index} className="min-w-[7rem] flex items-center">
+            <div key={index} className="min-w-[7rem] flex items-center pr-20">
               <img className="w-full" src={logo.src} alt={logo.alt} />
             </div>
           ))}

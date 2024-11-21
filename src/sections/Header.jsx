@@ -46,7 +46,7 @@ const Header = () => {
         >
           <li>
             <a
-              href="#catalogue"
+              href="/catalogue"
               className="max-md:text-2xl text-lg transition-colors duration-500 text-black hover:text-hover max-md:hover:text-hover-white"
             >
               CATALOGUE
@@ -54,7 +54,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="#fashion"
+              href="/fashion"
               className="max-md:text-2xl text-lg transition-colors duration-500 text-black hover:text-hover max-md:hover:text-hover-white"
             >
               FASHION
@@ -62,7 +62,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="#favourite"
+              href="/favourite"
               className="max-md:text-2xl text-lg transition-colors duration-500 text-black hover:text-hover max-md:hover:text-hover-white"
             >
               FAVOURITE
@@ -70,7 +70,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="#lifestyle"
+              href="/lifestyle"
               className="max-md:text-2xl text-lg transition-colors duration-500 text-black hover:text-hover max-md:hover:text-hover-white"
             >
               LIFESTYLE
